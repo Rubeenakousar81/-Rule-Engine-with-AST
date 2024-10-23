@@ -10,9 +10,9 @@ Before I begin, ensure have the following installed:
   *Visual Studio Code
 ## Steps to Run the Flask API
 ### 1. Setup the Project
-  Ensure that you have your Flask project directory set up properly. Your app.py file should be located at "C:/Users/RUBEENA KAUSAR/Desktop/Rule-Engine-AST-API-main/App.py".
+  Ensure that I have My Rule-Engine-AST-API-main project directory set up properly. My app.py file should be located at "C:/Users/RUBEENA KAUSAR/Desktop/Rule-Engine-AST-API-main/App.py".
 ### 2. Running the Flask API
-  1.Open a terminal in your project directory.
+  1.Open a terminal in our project directory.
   2.Run the Flask app using the following command:
   python "C:/Users/RUBEENA KAUSAR/Desktop/Rule-Engine-AST-API-main/App.py"
 ### 3.Once the Flask app is running, you should see the following output in the terminal:
@@ -82,7 +82,7 @@ Follow the steps below to test the API using Thunder Client in Visual Studio Cod
 2.Enter the following JSON data
 {
   "name": "combined_rule",
-  "rules": ["age_rule", "salary_rule"],  // Replace with actual rule names
+  "rules": ["age_rule", "salary_rule"],  // Replace with actual rule names "RuleA1", "RuleA2"
   "operator": "AND"  // or "OR"
 }
 6.Send the Request:
@@ -131,7 +131,7 @@ The predefined dataset used for evaluation in this API is as follows:
 Make sure your rules correspond to these attributes
 
 #Conclusion
-now can use the Flask API to create, combine, and evaluate rules with Thunder Client. As you continue to develop the application, you can enhance the rule engine, add new features, or connect the API to a more advanced UI.
+now can use the Flask API to create, combine, and evaluate rules with Thunder Client. As I continue to develop the application, I can enhance the rule engine, add new features, or connect the API to a more advanced UI.
 
 ##Additional Features (Optional)
    1.Support for more complex conditions: Extend the rule engine to handle more complex conditions, including nested rules.
